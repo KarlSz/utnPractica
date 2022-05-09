@@ -1,0 +1,19 @@
+/* Crear un archivo de hoja de estilos y vincularlo al HTML de la tarea anterior 
+(diseño del CV). Agregar un mínimo de 4 reglas en el archivo css. 
+Subir a un repositorio publico en GitHub y compartir la URL del mismo. */
+* {
+    margin: 0;
+    padding: 0;
+}
+#photo {
+    height: 40vh;
+    width: 20vw;
+    float: left;
+}
+#name {
+    padding: 1em;
+    float: right;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
