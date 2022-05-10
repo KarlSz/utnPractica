@@ -5,15 +5,32 @@ Subir a un repositorio publico en GitHub y compartir la URL del mismo. */
     margin: 0;
     padding: 0;
 }
+header {
+    width: 100vw;
+    height: 50vh;
+    box-shadow: 0 0 5px #888;
+    border-radius: 7px;
+}
 #photo {
     height: 40vh;
-    width: 20vw;
+    width: 25vw;
     float: left;
+    padding: 1em;
 }
 #name {
     padding: 1em;
+    padding-right: 2em;
     float: right;
 }
+section {
+    padding: 1em;
+}
 p {
+    column-count: 2;
+    column-gap: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+form{
+    padding: 1em 2em;
 }
