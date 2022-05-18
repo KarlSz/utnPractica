@@ -1,0 +1,55 @@
+* {
+margin: 0;
+padding: 0;
+}
+section {
+    border: 1px solid black;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    height: 100vh;
+}
+.ejercicio> div:first-child {
+    background-color: red;
+}
+.ejercicio> div:last-child {
+    background-color: green;
+}
+.ejercicio> div:nth-child(2){
+    background-color: blue;
+}
+.One {
+    flex-flow: column wrap;
+    align-items: flex-end;
+
+}
+div {
+    flex: 0 1 auto;
+    height:33.3vh;
+    width:33vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.Two {
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.primero {
+    order: 0;
+}
+.medio {
+    order: 1;
+}
+.ultimo {
+    order: 2;
+}
+.Three {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Three> div {
+    flex: 0 1 25vw;
+}
