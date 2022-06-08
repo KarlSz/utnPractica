@@ -1,0 +1,57 @@
+
+header {
+    height: 5 vh;
+    box-sizing: content-box;
+}
+.form-outline {
+    margin: 0 auto;
+    padding-top: 2vh;
+}
+
+.input-group {
+    align-items: center;
+}
+
+.form-control {
+    width: 40vw;
+    height: 3vh;
+}
+
+.btn {
+    font-size: 0.7rem;
+}
+
+.img-container {
+    background-color: darkgray;
+}
+
+.img {
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.img>img {
+    width: 95vw;
+}
+
+.imgChica {
+    height: fit-content;
+    padding: 10px;
+}
+
+.img-last {
+    padding-bottom: 20px;
+}
+
+.img-text {
+   padding-top: 5px; 
+}
+
+/* query media, beyond large img width cambia */
+
+@media (min-width: 769px){
+    .img>img {
+        width: fit-content;
+    }
+}
