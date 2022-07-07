@@ -1,0 +1,142 @@
+/* ESTILO GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Bauer Bodoni,serif;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.holder {
+    width: 95vw;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    background-image: linear-gradient(white 50%, rgb(244,240,236));
+}
+.logo {
+    height: 35px;
+    width: 25px;
+    padding-top: 10px;
+}
+header>div>h1 {
+    float:right;
+    margin-right: 27vw;
+    font-size: 32px;
+}
+/* media query h1 position when > lg cambiar */
+@media (min-width: 650px){
+    header>div {
+        display:flex;
+        flex-flow: column;
+        align-content: flex-start;
+    }
+    header>div>h1 {
+        align-self: center;
+        margin-right: 0;
+        margin-top: -2rem;
+}
+}
+/* NAVBAR */
+
+nav {
+  margin-bottom: -1.5em;
+}
+li {
+    display:inline;
+    padding: 1em;
+    margin: 1em;
+    font-size: 2rem;
+}
+li:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+    transition: border-bottom 0.2s ease;
+}
+
+/* MAIN */
+
+main {
+  height:fit-content;
+  background-image: linear-gradient(rgb(229,228,226), white 50%);
+  height: 100vh;
+  margin: 5% auto;
+  padding: 0.7em 0 10vh;
+}
+
+
+.pMain {
+  font-size: 72px;
+  padding: 1.5em 1em 0;
+  animation: fade-out 5s 1 reverse;
+  text-align: center;
+}
+@keyframes fade-out {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* SECTION */
+.products{
+  padding: 3em;
+  border-top: 2px solid black;
+}
+.image{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.image>img{
+  height:420px;
+  width: 280px;
+}
+.image>p{
+  padding: 1em;
+}
+/* NOSOTROS */
+/* SECTION NOSOTROS */
+.galeria-nosotros{
+float: left;
+margin: 5% 15px 0 5%;
+padding: 10px;
+}
+.nosotros img{
+  display: block;
+  margin: 0 auto;
+}
+.nosotros {
+width: 300px;
+height: 550px;
+}
+.descripcion {
+  padding:15px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* FOOTER */
+footer {
+  bottom: 0;
+  position: fixed;
+  margin-top: 1em;
+  height: fit-content;
+}
+.footer-text {
+    text-align: center;
+}
